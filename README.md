@@ -60,6 +60,8 @@ The shared training checkpoint is saved under `results/models_StaML/` and used f
 
 ## Evaluation
 
+Download the [abdomen evaluation checkpoint](https://github.com/Stth-er/AdaML/releases/download/v1.0/checkpoint_abdomen.pth) for testing on abdominal CT data. Place it at `results/models_StaML/StaML_epoch_49iter18999.pth.tar` by renaming the downloaded `checkpoint_abdomen.pth` file. The same checkpoint is used for StaML and AdaML evaluation.
+
 Set `inference_StaML = True` and leave the training call commented out in `main_StaML.py`. The default StaML evaluation uses the checkpoint in `results/models_StaML/`:
 
 ```bash
