@@ -74,9 +74,9 @@ For AdaML, use the same StaML training checkpoint and select AdaML mode for test
 python main_StaML.py --method AdaML --device cuda:0
 ```
 
-Both evaluation branches currently point to the same StaML checkpoint. Edit the `pth` argument in the script to select another shared checkpoint. The initial adaptation learning rate is loaded from the checkpoint; `--hyper_lr` controls the learning-rate update in AdaML mode. The script reports average PSNR, SSIM, and RMSE across adaptation steps. For baseline evaluation, set `path` in `main.py` to an available baseline checkpoint before running `python main.py --device_baseline cuda:0`; its original default path is not present in this repository.
+Both evaluation branches currently point to the same StaML checkpoint. Edit the `pth` argument in the script to select another shared checkpoint. The initial adaptation learning rate is loaded from the checkpoint; `--hyper_lr` controls the learning-rate update in AdaML mode. The script reports average PSNR, SSIM, and RMSE across adaptation steps. 
 
-The existing StaML and baseline checkpoints are each approximately 396 MiB. GitHub blocks files over 100 MiB in regular Git repositories; use [Git LFS](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-git-large-file-storage) or distribute checkpoints separately.
+
 
 ## Citation
 
