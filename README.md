@@ -84,9 +84,11 @@ If you use this work, please cite:
 
 ```bibtex
 @article{li2026adaml,
-  title   = {AdaML: Adaptive meta-learning for generalizable sparse-view CT reconstruction},
-  author  = {Li, Guodong and Liao, Tianli and Shang, Kun and Wang, Ce},
-  journal = {Computerized Medical Imaging and Graphics},
-  year    = {2026}
+  title={AdaML: Adaptive meta-learning for generalizable sparse-view CT reconstruction},
+  author={Li, Guodong and Liao, Tianli and Shang, Kun and Wang, Ce},
+  journal={Computerized Medical Imaging and Graphics},
+  volume={136},
+  pages={102839},
+  year={2026}
 }
 ```
